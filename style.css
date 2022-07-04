@@ -91,3 +91,77 @@ section {
     font-weight: 400;
     color: #828282;
 }
+
+.head_part {
+    text-align: center;
+}
+
+.head_part h2 {
+    font-size: 40px;
+    font-family: 500;
+    color: #828282;
+}
+
+.head_part p {
+    width: 550px;
+    margin: 10px auto;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item_inner {
+    width: 40%;
+    padding: 30px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.item_inner img {
+    width: 100%;
+}
+
+.text_item {
+    margin-top: 10px;
+}
+
+
+
+.last_item {
+    display: flex;
+    justify-content: space-around;
+    width: 1250px;
+    height: 150px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.last_inner {
+    width: 30%;
+}
+
+.last_text {
+    margin-left: 109px;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    color: #ffff;
+
+}
+
+footer h2 {
+    padding: 20px 0;
+}
+
+.oran {
+    color: #FBA24F;
+}
